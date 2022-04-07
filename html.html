@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap" rel="stylesheet">
+    <title>좋아하는?</title>
+    
+    <style>
+        *{
+            font-family: 'Hi Melody', cursive;
+            text-align: center;
+            margin: 0;
+        }
+
+        nav{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-bottom: 20px;
+        }
+
+        nav span{
+            border: 2px solid black;
+        }
+
+        body{
+            background-color: beige;
+        }
+
+        .list li{
+            border-width: 2px;
+            border-color: black;
+            border-style: solid ;
+            margin-bottom: 60px;
+            background-color: azure;
+            border-radius: 10px;
+        }
+
+        .list {
+            list-style-type: none;
+            padding: 0;
+            width: 70vw;
+            margin: 0 auto;
+        }
+
+        .list h4{
+            font-size: 150%;
+            margin: 5px 0;
+        }
+
+        .list p{
+            text-align: justify;
+            margin: 15px;
+        }
+
+        #title{
+           font-size: 200%;
+            height: 60px;
+            background-color: chartreuse;
+            color: cornsilk;
+            padding-top: 15px;
+        }
+        
+        .list img{
+            width: 100%;
+        }
+
+        .button{
+            margin-bottom: 15px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <h2 id="title"> 좋아하는 음식 </h2>
+    <nav>
+        <span>좋아하는 음식</span>
+        <span>좋아하는 영화</span>
+        <span>좋아하는 게임</span>
+    </nav>
+    <ul class="list">
+        <li>
+            <h4>치킨</h4>
+            <img src="./food/chiken.png" alt="치킨">
+            <p>정통 갈비양념의 깊은 맛을 그대로 품은 단짠단짠의 정석!
+                밥과 함께 일품요리로 즐길 수 있는 치킨</p>
+            <div class="button">
+                <div>
+                    <span>좋아요👍</span>
+                </div>
+            </div>        
+        </li>
+        <li>
+            <h4>파스타</h4>
+            <img src="./food/pasta.jpg" alt="파스타">
+            <p>크림소스를 베이스로 약간 걸쭉한 소스를 만들어,
+                 삶은 파스타 면을 섞어 먹는 요리 레시피. 
+                 세부적으로 여러 베리에이션이 있지만 기본적으론 
+                 화이트 소스나 우유또는 크림을 넣어 하얀 소스로
+                만든 것을 통칭한다.</p>
+                <div class="button">
+                    <div>
+                        <span>좋아요👍</span>
+                    </div>
+                </div>
+            </li>
+        <li>
+            <h4>스테이크</h4>
+            <img src="./food/stake.jpg" alt="스테이크">
+            <p>일상적으로는 송아지 고기를 포함 쇠고기로 만든 비프 스테이크를 지칭한다. 
+                하지만 돼지고기, 양고기, 닭고기 등의 가금류, 각종 생선 등
+                 다양한 재료로도 스테이크를 만들 수 있다</p>
+                 <div class="button">
+                    <div>
+                        <span>좋아요👍</span>
+                    </div>
+                </div>     
+        </li>
+    </ul>
+
+</body>
+</html>
